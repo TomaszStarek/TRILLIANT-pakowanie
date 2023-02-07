@@ -1,0 +1,522 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "libplctag/1.1.0-alpha.1": {
+        "type": "package",
+        "dependencies": {
+          "libplctag.NativeImport": "1.0.25"
+        },
+        "compile": {
+          "lib/netstandard2.0/libplctag.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/libplctag.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "libplctag.NativeImport/1.0.25": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Primitives": "4.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/libplctag.NativeImport.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/libplctag.NativeImport.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Net.Primitives/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "ZXing.Net/0.16.8": {
+        "type": "package",
+        "compile": {
+          "lib/net47/zxing.dll": {
+            "related": ".presentation.XML;.XML"
+          },
+          "lib/net47/zxing.presentation.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net47/zxing.dll": {
+            "related": ".presentation.XML;.XML"
+          },
+          "lib/net47/zxing.presentation.dll": {
+            "related": ".XML"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win": {
+      "libplctag/1.1.0-alpha.1": {
+        "type": "package",
+        "dependencies": {
+          "libplctag.NativeImport": "1.0.25"
+        },
+        "compile": {
+          "lib/netstandard2.0/libplctag.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/libplctag.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "libplctag.NativeImport/1.0.25": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Primitives": "4.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/libplctag.NativeImport.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/libplctag.NativeImport.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Net.Primitives/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "ZXing.Net/0.16.8": {
+        "type": "package",
+        "compile": {
+          "lib/net47/zxing.dll": {
+            "related": ".presentation.XML;.XML"
+          },
+          "lib/net47/zxing.presentation.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net47/zxing.dll": {
+            "related": ".presentation.XML;.XML"
+          },
+          "lib/net47/zxing.presentation.dll": {
+            "related": ".XML"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x64": {
+      "libplctag/1.1.0-alpha.1": {
+        "type": "package",
+        "dependencies": {
+          "libplctag.NativeImport": "1.0.25"
+        },
+        "compile": {
+          "lib/netstandard2.0/libplctag.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/libplctag.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "libplctag.NativeImport/1.0.25": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Primitives": "4.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/libplctag.NativeImport.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/libplctag.NativeImport.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Net.Primitives/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "ZXing.Net/0.16.8": {
+        "type": "package",
+        "compile": {
+          "lib/net47/zxing.dll": {
+            "related": ".presentation.XML;.XML"
+          },
+          "lib/net47/zxing.presentation.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net47/zxing.dll": {
+            "related": ".presentation.XML;.XML"
+          },
+          "lib/net47/zxing.presentation.dll": {
+            "related": ".XML"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x86": {
+      "libplctag/1.1.0-alpha.1": {
+        "type": "package",
+        "dependencies": {
+          "libplctag.NativeImport": "1.0.25"
+        },
+        "compile": {
+          "lib/netstandard2.0/libplctag.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/libplctag.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "libplctag.NativeImport/1.0.25": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Primitives": "4.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/libplctag.NativeImport.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/libplctag.NativeImport.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Net.Primitives/4.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "ZXing.Net/0.16.8": {
+        "type": "package",
+        "compile": {
+          "lib/net47/zxing.dll": {
+            "related": ".presentation.XML;.XML"
+          },
+          "lib/net47/zxing.presentation.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net47/zxing.dll": {
+            "related": ".presentation.XML;.XML"
+          },
+          "lib/net47/zxing.presentation.dll": {
+            "related": ".XML"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "libplctag/1.1.0-alpha.1": {
+      "sha512": "iovZud5aZL6RZtXXWLTw4K9XQXyUpIPIID26gaq/6gXytOTQoU0ZnDoJPNEqUOB9XSn3WpRjKMi3DGH8TFpLhw==",
+      "type": "package",
+      "path": "libplctag/1.1.0-alpha.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/libplctag.dll",
+        "lib/netstandard2.0/libplctag.xml",
+        "libplctag.1.1.0-alpha.1.nupkg.sha512",
+        "libplctag.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "libplctag.NativeImport/1.0.25": {
+      "sha512": "pKR0D+vYiRbwT+edmF/oYb2pyltpHGPPXdxZhxixUfrysKTsn1ut6jSQ3kiHWwYHHW8o5GVJWmKxxXGvs2Lrmw==",
+      "type": "package",
+      "path": "libplctag.nativeimport/1.0.25",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/libplctag.NativeImport.dll",
+        "lib/netstandard2.0/libplctag.NativeImport.xml",
+        "libplctag.nativeimport.1.0.25.nupkg.sha512",
+        "libplctag.nativeimport.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Net.Primitives/4.3.1": {
+      "sha512": "OHzPhSme78BbmLe9UBxHM69ZYjClS5URuhce6Ta4ikiLgaUGiG/X84fZpI6zy7CsUH5R9cYzI2tv9dWPqdTkUg==",
+      "type": "package",
+      "path": "system.net.primitives/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Net.Primitives.dll",
+        "ref/netcore50/System.Net.Primitives.xml",
+        "ref/netcore50/de/System.Net.Primitives.xml",
+        "ref/netcore50/es/System.Net.Primitives.xml",
+        "ref/netcore50/fr/System.Net.Primitives.xml",
+        "ref/netcore50/it/System.Net.Primitives.xml",
+        "ref/netcore50/ja/System.Net.Primitives.xml",
+        "ref/netcore50/ko/System.Net.Primitives.xml",
+        "ref/netcore50/ru/System.Net.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Net.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Net.Primitives.xml",
+        "ref/netstandard1.0/System.Net.Primitives.dll",
+        "ref/netstandard1.0/System.Net.Primitives.xml",
+        "ref/netstandard1.0/de/System.Net.Primitives.xml",
+        "ref/netstandard1.0/es/System.Net.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Net.Primitives.xml",
+        "ref/netstandard1.0/it/System.Net.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Net.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Net.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Net.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Net.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Net.Primitives.xml",
+        "ref/netstandard1.1/System.Net.Primitives.dll",
+        "ref/netstandard1.1/System.Net.Primitives.xml",
+        "ref/netstandard1.1/de/System.Net.Primitives.xml",
+        "ref/netstandard1.1/es/System.Net.Primitives.xml",
+        "ref/netstandard1.1/fr/System.Net.Primitives.xml",
+        "ref/netstandard1.1/it/System.Net.Primitives.xml",
+        "ref/netstandard1.1/ja/System.Net.Primitives.xml",
+        "ref/netstandard1.1/ko/System.Net.Primitives.xml",
+        "ref/netstandard1.1/ru/System.Net.Primitives.xml",
+        "ref/netstandard1.1/zh-hans/System.Net.Primitives.xml",
+        "ref/netstandard1.1/zh-hant/System.Net.Primitives.xml",
+        "ref/netstandard1.3/System.Net.Primitives.dll",
+        "ref/netstandard1.3/System.Net.Primitives.xml",
+        "ref/netstandard1.3/de/System.Net.Primitives.xml",
+        "ref/netstandard1.3/es/System.Net.Primitives.xml",
+        "ref/netstandard1.3/fr/System.Net.Primitives.xml",
+        "ref/netstandard1.3/it/System.Net.Primitives.xml",
+        "ref/netstandard1.3/ja/System.Net.Primitives.xml",
+        "ref/netstandard1.3/ko/System.Net.Primitives.xml",
+        "ref/netstandard1.3/ru/System.Net.Primitives.xml",
+        "ref/netstandard1.3/zh-hans/System.Net.Primitives.xml",
+        "ref/netstandard1.3/zh-hant/System.Net.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.net.primitives.4.3.1.nupkg.sha512",
+        "system.net.primitives.nuspec"
+      ]
+    },
+    "ZXing.Net/0.16.8": {
+      "sha512": "Cbbe+x7I7E+VJ0VxU1fPc7AktIw/9xea/ZY/fh38sXqTQ75LJp9ooGUjpzFqfpPfIKozAoXgJ4yvY4GzKpPBzQ==",
+      "type": "package",
+      "path": "zxing.net/0.16.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/native/zxing.XML",
+        "lib/native/zxing.pri",
+        "lib/native/zxing.winmd",
+        "lib/net20-cf/zxing.ce2.0.dll",
+        "lib/net20-cf/zxing.ce2.0.xml",
+        "lib/net20/zxing.XML",
+        "lib/net20/zxing.dll",
+        "lib/net35-cf/zxing.ce3.5.dll",
+        "lib/net35-cf/zxing.ce3.5.xml",
+        "lib/net35/zxing.XML",
+        "lib/net35/zxing.dll",
+        "lib/net40/zxing.XML",
+        "lib/net40/zxing.dll",
+        "lib/net40/zxing.presentation.XML",
+        "lib/net40/zxing.presentation.dll",
+        "lib/net45/zxing.XML",
+        "lib/net45/zxing.dll",
+        "lib/net45/zxing.presentation.XML",
+        "lib/net45/zxing.presentation.dll",
+        "lib/net461/zxing.XML",
+        "lib/net461/zxing.dll",
+        "lib/net461/zxing.presentation.XML",
+        "lib/net461/zxing.presentation.dll",
+        "lib/net47/zxing.XML",
+        "lib/net47/zxing.dll",
+        "lib/net47/zxing.presentation.XML",
+        "lib/net47/zxing.presentation.dll",
+        "lib/net48/zxing.XML",
+        "lib/net48/zxing.dll",
+        "lib/net48/zxing.presentation.XML",
+        "lib/net48/zxing.presentation.dll",
+        "lib/net5.0/zxing.XML",
+        "lib/net5.0/zxing.dll",
+        "lib/net6.0/zxing.XML",
+        "lib/net6.0/zxing.dll",
+        "lib/netcoreapp3.0/zxing.dll",
+        "lib/netcoreapp3.0/zxing.xml",
+        "lib/netcoreapp3.1/zxing.dll",
+        "lib/netcoreapp3.1/zxing.xml",
+        "lib/netstandard1.0/zxing.dll",
+        "lib/netstandard1.0/zxing.xml",
+        "lib/netstandard1.1/zxing.dll",
+        "lib/netstandard1.1/zxing.xml",
+        "lib/netstandard1.3/zxing.dll",
+        "lib/netstandard1.3/zxing.xml",
+        "lib/netstandard2.0/zxing.dll",
+        "lib/netstandard2.0/zxing.xml",
+        "lib/netstandard2.1/zxing.dll",
+        "lib/netstandard2.1/zxing.xml",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.XML",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.dll",
+        "lib/sl3-wp/zxing.wp7.0.XML",
+        "lib/sl3-wp/zxing.wp7.0.dll",
+        "lib/sl4-wp71/zxing.wp7.1.XML",
+        "lib/sl4-wp71/zxing.wp7.1.dll",
+        "lib/sl4/zxing.sl4.XML",
+        "lib/sl4/zxing.sl4.dll",
+        "lib/sl5/zxing.sl5.XML",
+        "lib/sl5/zxing.sl5.dll",
+        "lib/uap10/zxing.dll",
+        "lib/uap10/zxing.pri",
+        "lib/uap10/zxing.xml",
+        "lib/windows8-managed/zxing.winrt.XML",
+        "lib/windows8-managed/zxing.winrt.dll",
+        "lib/windows8/zxing.XML",
+        "lib/windows8/zxing.pri",
+        "lib/windows8/zxing.winmd",
+        "lib/wp8/zxing.wp8.0.XML",
+        "lib/wp8/zxing.wp8.0.dll",
+        "logo.jpg",
+        "zxing.net.0.16.8.nupkg.sha512",
+        "zxing.net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "ZXing.Net >= 0.16.8",
+      "libplctag >= 1.1.0-alpha.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\2281209\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\2281209\\Desktop\\programowanie\\TRILLIANT pakowanie\\ver9 - sprawdzanie wersji po nc\\WindowsFormsApp5\\WindowsFormsApp5\\Trilliant.csproj",
+      "projectName": "WindowsFormsApp5",
+      "projectPath": "C:\\Users\\2281209\\Desktop\\programowanie\\TRILLIANT pakowanie\\ver9 - sprawdzanie wersji po nc\\WindowsFormsApp5\\WindowsFormsApp5\\Trilliant.csproj",
+      "packagesPath": "C:\\Users\\2281209\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2281209\\Desktop\\programowanie\\TRILLIANT pakowanie\\ver9 - sprawdzanie wersji po nc\\WindowsFormsApp5\\WindowsFormsApp5\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\2281209\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "ZXing.Net": {
+            "target": "Package",
+            "version": "[0.16.8, )"
+          },
+          "libplctag": {
+            "target": "Package",
+            "version": "[1.1.0-alpha.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

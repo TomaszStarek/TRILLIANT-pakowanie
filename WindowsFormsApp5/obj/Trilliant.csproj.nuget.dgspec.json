@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\2281209\\Desktop\\programowanie\\TRILLIANT pakowanie\\ver9 - sprawdzanie wersji po nc\\WindowsFormsApp5\\WindowsFormsApp5\\Trilliant.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\2281209\\Desktop\\programowanie\\TRILLIANT pakowanie\\ver9 - sprawdzanie wersji po nc\\WindowsFormsApp5\\WindowsFormsApp5\\Trilliant.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\2281209\\Desktop\\programowanie\\TRILLIANT pakowanie\\ver9 - sprawdzanie wersji po nc\\WindowsFormsApp5\\WindowsFormsApp5\\Trilliant.csproj",
+        "projectName": "WindowsFormsApp5",
+        "projectPath": "C:\\Users\\2281209\\Desktop\\programowanie\\TRILLIANT pakowanie\\ver9 - sprawdzanie wersji po nc\\WindowsFormsApp5\\WindowsFormsApp5\\Trilliant.csproj",
+        "packagesPath": "C:\\Users\\2281209\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2281209\\Desktop\\programowanie\\TRILLIANT pakowanie\\ver9 - sprawdzanie wersji po nc\\WindowsFormsApp5\\WindowsFormsApp5\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\2281209\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net471"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {
+          "dependencies": {
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.8, )"
+            },
+            "libplctag": {
+              "target": "Package",
+              "version": "[1.1.0-alpha.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
